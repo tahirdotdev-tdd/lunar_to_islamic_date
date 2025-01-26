@@ -1,16 +1,27 @@
-# lunar_to_islamic_date_example
+# lunar_to_islamic_date
 
-Demonstrates how to use the lunar_to_islamic_date plugin.
+A Dart/Flutter plugin for converting Gregorian (lunar) dates to Islamic Hijri dates.
+
+[![pub package](https://img.shields.io/pub/v/lunar_to_islamic_date.svg)](https://pub.dev/packages/lunar_to_islamic_date)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Overview
+
+This plugin provides a simple and accurate way to convert a Gregorian date (year, month, day) into its corresponding Islamic Hijri date. It uses an algorithm based on lunar calculations to provide reliable results. This is designed to be simple to use and integrate into your Dart or Flutter projects.
+
+## Features
+
+*   **Gregorian to Hijri Conversion:** Converts a given Gregorian year, month, and day to the equivalent Islamic Hijri date.
+*   **Accurate Calculations:** Utilizes a robust algorithm for better accuracy compared to simple approximations.
+*   **Error Handling:** Gracefully handles invalid Gregorian date inputs and returns an appropriate error.
+*   **Simple API:** Easy to integrate into your Dart/Flutter projects.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### 1. Add the Dependency
 
-A few resources to get you started if this is your first Flutter project:
+Add `lunar_to_islamic_date` to your `pubspec.yaml` file:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  lunar_to_islamic_date: ^1.0.0 # Replace with the latest version
