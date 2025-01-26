@@ -1,0 +1,30 @@
+name: lunar_to_islamic_date
+description: "A Flutter plugin that accurately converts Gregorian (lunar) dates to Islamic Hijri dates using a robust astronomical algorithm."
+version: 1.0.0
+homepage: https://github.com/tahirdotdev-tdd/lunar_to_islamic_date
+repository: https://github.com/tahirdotdev-tdd/lunar_to_islamic_date # Added the repository field
+authors:
+  - "Tahir <chatwitme2344@gmail.com>"
+publish_to: 'https://pub.dev' # Allow the plugin to be published
+
+environment:
+  sdk: ">=2.19.0 <4.0.0" # Adjusted to support Flutter 2.x and 3.x
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# The Flutter section is optional if you have platform-specific code
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.lunar_to_islamic_date
+        pluginClass: LunarToIslamicDatePlugin
+      ios:
+        pluginClass: LunarToIslamicDatePlugin
